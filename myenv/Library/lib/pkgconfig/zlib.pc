@@ -1,0 +1,13 @@
+prefix=C:/Users/Sandipan Sahu/Documents/Education/Langchain/myenv/Library
+exec_prefix=C:/Users/Sandipan Sahu/Documents/Education/Langchain/myenv/Library
+libdir=C:/Users/Sandipan Sahu/Documents/Education/Langchain/myenv/Library/lib
+sharedlibdir=C:/Users/Sandipan Sahu/Documents/Education/Langchain/myenv/Library/lib
+includedir=C:/Users/Sandipan Sahu/Documents/Education/Langchain/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
